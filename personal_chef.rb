@@ -1,12 +1,13 @@
 class PersonalChef
 
-  def make_toast
-    puts "Making your toast!"
+  def make_toast(color)
+    puts "Making your #{ color }toast!"
   end
 
-  def make_milkshake
-    puts "Crafting sublime Oreo milkshake"
+  def make_milkshake(thickness)
+    puts "Crafting #{ thickness } Oreo milkshake"
   end
+
 
 
 end
